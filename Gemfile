@@ -65,3 +65,12 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "rufo"       # 清掃担当（見た目を整える）
+gem "standard"   # 校閲担当（書き方のルールチェック）
+gem "ruby-lsp"   # 通訳担当（意味の解説と予測）
+gem "rubocop", require: false
+
+group :production do
+  gem "pg"
+end
