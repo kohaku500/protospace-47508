@@ -15,7 +15,7 @@ development:
   username: root
   password:
   host: localhost
-  database: "protospace"_development
+  database: protospace_development
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -26,7 +26,7 @@ test:
   username: root
   password:
   host: localhost
-  database: "protospace"_test
+  database: protospace_test
 
 production:
   <<: *default
